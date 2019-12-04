@@ -1,0 +1,12 @@
+gunicorn==19.9.0
+bcrypt==3.1.7
+bottle==0.12.17
+cffi==1.13.2
+fastnumbers==2.2.1
+inflection==0.3.1
+munch==2.3.2
+pycparser==2.19
+PyJWT==1.7.1
+python-dateutil==2.8.0
+six==1.12.0
+firebase-admin==2.16.0

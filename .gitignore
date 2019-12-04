@@ -1,0 +1,7 @@
+__pycache__
+.vscode/
+modules
+env.py
+package-lock.json
+error.log
+*.DS_Store
