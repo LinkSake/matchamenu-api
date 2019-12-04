@@ -25,3 +25,9 @@ Run the following command to run the API on the port 8080
 ```
 $ Modules/bin/python run.py
 ```
+
+---
+
+## Usage
+
+ - `/qr`(POST) - Given a sting (data) on the body, it will generate a QR.svg and encode it using base64.
