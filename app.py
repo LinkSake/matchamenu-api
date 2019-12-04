@@ -10,6 +10,8 @@ from routes.base_routes import route
 from routes.qr_routes import route
 from routes.error_routes import error
 
+from db_connection import db
+
 # from auth.jwt_custom_providers import CustomJWTProviderPlugin
 
 #Confugure the server
@@ -23,6 +25,8 @@ app.install(EnableCors())
 #     ttl=os.environ.get('ttl'),
 #     response=response)
 # )
+
+
 app.error_handle = handler
 stdout.flush()
 
