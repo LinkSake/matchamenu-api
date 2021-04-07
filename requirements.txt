@@ -1,6 +1,6 @@
 gunicorn==19.9.0
 bcrypt==3.1.7
-bottle==0.12.17
+bottle==0.12.19
 cffi==1.13.2
 fastnumbers==2.2.1
 inflection==0.3.1
